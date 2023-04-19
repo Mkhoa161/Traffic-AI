@@ -1,0 +1,8 @@
+# Traffic-AI
+BACKGROUND:
+
+As part of the ongoing research into autonomous vehicles, a significant challenge involves the development of computer vision technologies that enable these vehicles to interpret their surroundings based on digital images. A crucial aspect of this involves the ability to detect and differentiate between various road signs, such as stop signs, speed limit signs, and yield signs.
+
+In this AI project, I utilize TensorFlow to construct a neural network capable of classifying road signs based on digital images. To accomplish this, I leverage a labeled dataset consisting of images that have already been categorized according to the specific road sign represented within each image. While various datasets exist for this purpose, I opt to use the German Traffic Sign Recognition Benchmark (GTSRB) dataset, which encompasses thousands of images depicting 43 different types of road signs.
+
+In addition to utilizing TensorFlow for neural network construction, I also employ opencv-python for image processing and scikit-learn for various machine learning-related functions. With opencv-python, I am able to preprocess the digital images of road signs to enhance their quality and ensure that they are well-suited for neural network classification. Similarly, scikit-learn offers a broad range of machine learning tools and algorithms that are instrumental in developing accurate and effective models for road sign recognition. Together, these tools provide a comprehensive suite of capabilities that enable me to develop a robust and reliable system for identifying and interpreting various types of road signs.
